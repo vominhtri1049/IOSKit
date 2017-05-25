@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,13 +26,21 @@
                                 <rect key="frame" x="164" y="291" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hr3-wZ-a4X">
+                                <rect key="frame" x="164" y="480" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="btV-3m-0Hs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="164" id="3Rp-uu-186"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="btV-3m-0Hs" secondAttribute="bottom" constant="346" id="8af-p8-neQ"/>
+                            <constraint firstItem="hr3-wZ-a4X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="148" id="DJM-5M-HoI"/>
+                            <constraint firstItem="hr3-wZ-a4X" firstAttribute="top" secondItem="btV-3m-0Hs" secondAttribute="bottom" constant="159" id="FhY-ss-ZeP"/>
                             <constraint firstItem="btV-3m-0Hs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="271" id="Ys1-La-4zb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hr3-wZ-a4X" secondAttribute="bottom" constant="157" id="ZAl-6c-KyN"/>
                             <constraint firstAttribute="trailing" secondItem="btV-3m-0Hs" secondAttribute="trailing" constant="165" id="mbL-8d-kTq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hr3-wZ-a4X" secondAttribute="trailing" constant="149" id="w8S-ag-Jt9"/>
                         </constraints>
                     </view>
                 </viewController>
